@@ -7,8 +7,33 @@ class Html
     {
         return '<img src="' . $src . '">';
     }
+
     public function a(string $href , string $anchor)
     {
-       return '<a href="' . $href . '">' . $anchor . '</a>';
+        $tag = new class {
+
+            private $attributes;
+
+            public function attribute(array $attributes)
+            {
+                $result = [];
+
+                foreach ($attributes as $key => $value)
+                {
+                    $result[] = $key . '="' . $value . '"';
+                }
+
+                $this->attributes =' ' . implode(' ' , $result);
+            }
+            public function __toString()
+            {
+                return '<a href="' . $this->href . '"' . $this->attributes . '>' . $this->anchor . '</a>';
+            }
+        };
+
+        $tag->href = $href;
+        $tag->anchor = $anchor;
+
+        return $tag;
     }
 }
