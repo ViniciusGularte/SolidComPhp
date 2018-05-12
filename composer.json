@@ -1,5 +1,5 @@
 {
-    "name": "son/solid",
+    "name": "vinicius/solid",
     "description": "Conteúdo de Solid com PHP",
     "type": "library",
     "require-dev": {
