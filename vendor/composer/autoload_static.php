@@ -657,7 +657,6 @@ class ComposerStaticInit7f50fdcc2a10804f6692bf4d83c295a7
         'Solid\\Html\\Tag\\Img' => __DIR__ . '/../..' . '/src/Tag/Img.php',
         'Solid\\Html\\Tag\\Tag' => __DIR__ . '/../..' . '/src/Tag/Tag.php',
         'Solid\\Html\\Tag\\TagsContract' => __DIR__ . '/../..' . '/src/Tag/TagsContract.php',
-        'Solid\\Html\\Tags' => __DIR__ . '/../..' . '/src/Tags.php',
         'Symfony\\Component\\Yaml\\Command\\LintCommand' => __DIR__ . '/..' . '/symfony/yaml/Command/LintCommand.php',
         'Symfony\\Component\\Yaml\\Dumper' => __DIR__ . '/..' . '/symfony/yaml/Dumper.php',
         'Symfony\\Component\\Yaml\\Escaper' => __DIR__ . '/..' . '/symfony/yaml/Escaper.php',

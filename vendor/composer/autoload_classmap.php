@@ -592,7 +592,6 @@ return array(
     'Solid\\Html\\Tag\\Img' => $baseDir . '/src/Tag/Img.php',
     'Solid\\Html\\Tag\\Tag' => $baseDir . '/src/Tag/Tag.php',
     'Solid\\Html\\Tag\\TagsContract' => $baseDir . '/src/Tag/TagsContract.php',
-    'Solid\\Html\\Tags' => $baseDir . '/src/Tags.php',
     'Symfony\\Component\\Yaml\\Command\\LintCommand' => $vendorDir . '/symfony/yaml/Command/LintCommand.php',
     'Symfony\\Component\\Yaml\\Dumper' => $vendorDir . '/symfony/yaml/Dumper.php',
     'Symfony\\Component\\Yaml\\Escaper' => $vendorDir . '/symfony/yaml/Escaper.php',
